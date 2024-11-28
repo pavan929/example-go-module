@@ -5,7 +5,7 @@ import "fmt"
 import "context"
 import "crypto/rsa"
 import "crypto/rand"
-import "github.com/google/go-github/github"
+import "github.com/google/go-github/v48/github"
 
 func Foo() {
     client := github.NewClient(nil)
